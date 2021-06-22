@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { View, FlatList } from 'react-native';
+
 import { ButtonAdd } from '../../components/ButtonAdd';
 import { Profile } from '../../components/Profile';
 import { ListHeader } from '../../components/ListHeader';
-import { styles } from './styles';
 import { CategorySelect } from '../../components/CategorySelect'
 import { Appointment } from '../../components/Appointment';
 import { ListDivider } from '../../components/ListDivider';
+
+import { styles } from './styles';
 
 export function Home() {
 	const [category, setCategory] = useState('');
