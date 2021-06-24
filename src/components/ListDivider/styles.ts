@@ -3,11 +3,9 @@ import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
 	container: {
-		width: '75%',
 		height: 1,
-		backgroundColor: theme.colors.secondary40,
-		marginVertical: 31,
-		marginTop: 2,
+		width: '78%',
 		alignSelf: 'flex-end',
+		backgroundColor: theme.colors.secondary40,
 	}
 });
