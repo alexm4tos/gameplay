@@ -14,12 +14,14 @@ type Props = RectButtonProps & {
 	icon: React.FC<SvgProps>;
 	hasCheckBox?: boolean;
 	checked: boolean;
+	hasError?: boolean;
 }
 
 export function Category({
 	title,
 	icon: Icon,
 	hasCheckBox = false,
+	hasError = false,
 	checked = false,
 	...rest
 }: Props) {
@@ -28,7 +30,7 @@ export function Category({
 	return (
 		<RectButton { ...rest }>
 			<LinearGradient
-				style={styles.container}
+				style={[ styles.container, { borderColor: hasError ? theme.colors.primary : theme.colors.secondary100, borderWidth: 1} ]}
 				colors={[secondary50, secondary70]}
 			>
 				<LinearGradient 

@@ -11,12 +11,14 @@ type Props = {
 	categorySelected: string;
 	setCategory: (categoryId: string) => void;
 	hasCheckBox?: boolean;
+	hasError?: boolean;
 }
 
 export function CategorySelect({ 
 	categorySelected, 
 	setCategory,
 	hasCheckBox = false,
+	hasError
 }: Props) {
 	return (
 		<ScrollView
@@ -34,6 +36,7 @@ export function CategorySelect({
 						checked={category.id === categorySelected}
 						onPress={ () => setCategory(category.id) }
 						hasCheckBox={hasCheckBox}
+						hasError={hasError}
 					/>
 				))
 			}
