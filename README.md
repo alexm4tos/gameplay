@@ -12,7 +12,22 @@ Aplicativo desenvolvido durante a realização do evento \<NLW/\>Together, promo
 
 ### Screenshots
 Tela de login:
-![Captura da tela de login](/SignIn.jpg "Tela de login")
+![Captura da tela de login](Screenshots/SignIn.jpg "Tela de login")
+
+Página inicial (sem agendamentos):
+![Captura da página inicial](Screenshots/HomeWithoutAppointment.jpg "Página inicial")
+
+Adicionar agendamento:
+![Captura da adicionar agendamento](Screenshots/CreateAppointment.jpg "Adicionar agendamento")
+
+Adicionar agendamento (validação):
+![Captura da adicionar agendamento](Screenshots/CreateAppointmentValidate.jpg "Adicionar agendamento")
+
+Página inicial (com agendamentos):
+![Captura da página inicial](Screenshots/HomeWithAppointments.jpg "Página inicial")
+
+Sair:
+![Captura da modal de sair](Screenshots/Exit.jpg "Sair")
 
 ## Vamos começar <a name="vamos_comecar"></a>
 
