@@ -1,11 +1,11 @@
 {
     "expo": {
-        "name": "gameplay",
-        "slug": "gameplay",
+        "name": "GamePlay",
+        "slug": "GamePlay",
         "version": "1.0.0",
         "orientation": "portrait",
         "icon": "./assets/icon.png",
-        "scheme": "gameplay",
+        "scheme": "GamePlay",
         "splash": {
             "image": "./assets/splash.png",
             "resizeMode": "contain",
@@ -24,7 +24,8 @@
             "adaptiveIcon": {
                 "foregroundImage": "./assets/adaptive-icon.png",
                 "backgroundColor": "#FFFFFF"
-            }
+            },
+            "package": "br.net.alex.gameplay"
         },
         "web": {
             "favicon": "./assets/favicon.png"
